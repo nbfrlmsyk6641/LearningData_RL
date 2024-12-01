@@ -12,7 +12,7 @@ x_train = linspace(0, 2*pi, N)';  % 列向量
 y_train = f(x_train);             % 计算对应的输出
 
 % 设置隐藏层节点（RBF 神经元）数目
-M = 20;
+M = 10;
 % 选择 RBF 的中心（μ_i），均匀分布在输入空间 [0, 2π] 上
 centers = linspace(0, 2*pi, M)';  % 列向量
 
