@@ -1,0 +1,9 @@
+DDPG_SMC代码和模型在workspace文件夹中。
+软件适配Matlab R2021a以上
+
+运行步骤：
+1.打开workspace文件夹中的run.m文件，并运行，创建代理和环境的Simulink模型中的环境对象；
+2.然后打开second_order_DDPG_change_obs.slx文件，并运行即可。
+
+注意：该模型算法共学习参考并进行应用，目前仿真结果显示，DDPG_SMC出现控制输入的抖振现象，
+读者后期可以对滑膜控制的趋近律进行优化以解决问题。
